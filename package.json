@@ -1,0 +1,29 @@
+{
+  "name": "smth_idk_server",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/gooseDes/smth_idk_server#readme",
+  "bugs": {
+    "url": "https://github.com/gooseDes/smth_idk_server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gooseDes/smth_idk_server.git"
+  },
+  "license": "ISC",
+  "author": "goose_des",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
