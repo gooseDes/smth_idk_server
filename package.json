@@ -18,6 +18,10 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "@babylonjs/core": "^6.4.1",
+    "@babylonjs/havok": "^1.0.1",
+    "jsdom": "^26.1.0",
+    "node-fetch": "^3.3.2",
     "ws": "^8.18.3"
   },
   "devDependencies": {
